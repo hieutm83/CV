@@ -1,13 +1,13 @@
 import {FiCloud, FiCode, FiCpu, FiFacebook, FiGithub} from 'react-icons/fi';
 
 export const AppConfig = {
-  name: "Anh Nhan Nguyen",
-  username: "monokaijs", // should be GitHub username
-  avatar: 'https://i.imgur.com/nqXoDyv.jpeg',
-  verticalAvatar: 'https://i.imgur.com/AD7uyCy.png',
-  introduction: `10+ years experience in software development.\n` +
+  name: "Minh Hieu Trinh",
+  username: "hieutm", // should be GitHub username
+  avatar: 'https://i.imgur.com/BBmK7YC.jpeg',
+  verticalAvatar: 'https://i.imgur.com/yCthTcx.jpeg',
+  introduction: `5+ years of experience in the e-commerce industry.\n` +
     `Working in scalable and high-performance technology systems.\n` +
-    `Web Development, Mobile Development, DevOps & more.`,
+    `Operations of e-commerce platforms such as TikTok, Shopee, Lazada & more.`,
   subscriptions: [{
     name: "Hire Me",
     price: "At any price",
@@ -18,25 +18,21 @@ export const AppConfig = {
   }],
   socialLinks: [{
     name: 'GitHub',
-    url: 'https://github.com/monokaijs',
+    url: 'https://https://github.com/hieutm83',
     icon: FiGithub
   }, {
     name: 'Facebook',
-    url: 'https://facebook.com/delimister',
+    url: 'https://www.facebook.com/hiueee/',
     icon: FiFacebook
   }],
   expertises: [{
-    name: 'Web Development',
+    name: 'E-commerce platform operations.',
     icon: FiCode,
-    description: 'React, Next.js, Node.js, Express, Nest.js, Golang, PHP, Python, SQL, MongoDB, GraphQL, REST API, C#, Rust etc.'
+    description: 'TikTok Shop, Shopee, Lazada, etc.'
   }, {
     name: 'Infrastructure',
     icon: FiCloud,
-    description: 'AWS, GCP, Azure, Kubernetes, Docker, etc.'
-  }, {
-    name: 'IoT Development',
-    icon: FiCpu,
-    description: 'ESP32, ESP8266, Arduino, etc.'
+    description: 'Driving traffic, increasing conversions, optimizing ad cost, boosting revenue, designing banners, and managing live streams and videos, etc.'
   }],
   analytics: {
     gaId: 'G-NF39CSC1T1',
