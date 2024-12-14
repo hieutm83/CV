@@ -4,6 +4,18 @@ import {FiLink, FiShare} from 'react-icons/fi';
 
 export default function ProfilePosts() {
   const allPosts = getSortedPostsData();
+  const [showLink, setShowLink] = useState(null);  // Để theo dõi bài viết nào cần hiển thị link
+  const fixedLink = "https://hieutm83.github.io/tmh";  // Đường link cố định
+
+  const handleCopyLink = () => {
+    navigator.clipboard.writeText(fixedLink)
+      .then(() => {
+        alert('Link copied to clipboard!');
+      })
+      .catch((err) => {
+        console.error('Failed to copy link: ', err);
+      });
+  };
   return <div className={'flex flex-col divide-y pb-8'}>
     {allPosts.map(post => (
       <div className={'bg-white'}>
