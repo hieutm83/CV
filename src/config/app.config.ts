@@ -1,4 +1,7 @@
-import {FiCloud, FiCode, FiCpu, FiFacebook, FiGithub} from 'react-icons/fi';
+import { VscGitPullRequestCreate } from "react-icons/vsc";
+import { CiShop } from "react-icons/ci";
+import { FiFacebook } from "react-icons/fi";
+import { SiZalo } from "react-icons/si";
 
 export const AppConfig = {
   name: "Minh Hieu Trinh",
@@ -17,25 +20,21 @@ export const AppConfig = {
     price: "From $100"
   }],
   socialLinks: [{
-    name: 'GitHub',
-    url: 'https://https://github.com/hieutm83',
-    icon: FiGithub
+    name: 'Zalo',
+    url: 'https://https://https://zalo.me/0387654443',
+    icon: SiZalo
   }, {
     name: 'Facebook',
-    url: 'https://www.facebook.com/hiueee/',
+    url: 'https://www.facebook.com/hiueee',
     icon: FiFacebook
-  }, {
-    name: 'Zalo',
-    url: 'https://zalo.me/0387654443',
-    icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Zalo_Logo.png'
   }],
   expertises: [{
     name: 'E-commerce platform operations.',
-    icon: FiCode,
+    icon: CiShop,
     description: 'TikTok Shop, Shopee, Lazada, etc.'
   }, {
     name: 'Infrastructure',
-    icon: FiCloud,
+    icon: VscGitPullRequestCreate,
     description: 'Driving traffic, increasing conversions, optimizing ad cost, boosting revenue, designing banners, and managing live streams and videos, etc.'
   }],
   analytics: {
