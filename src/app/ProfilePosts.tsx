@@ -1,3 +1,5 @@
+'use client'; // Thêm dòng này để chỉ định đây là một component phía client
+
 import { useState } from 'react';  // Import useState từ React
 import { getSortedPostsData } from '@/lib/posts';
 import { AppConfig } from '@/config/app.config';
