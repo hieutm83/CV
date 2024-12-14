@@ -85,8 +85,13 @@ export default function ContactPage() {
             </div>
           </div>
 
-          {/* Thêm phần Gmail */}
+          {/* Thêm phần Gmail với biểu tượng */}
           <div className={'mt-4 flex flex-row items-center gap-2'}>
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/042/165/820/non_2x/gmail-icon-transparent-free-png.png"
+              alt="Gmail Icon"
+              className="w-5 h-5"
+            />
             <span className={'text-neutral-500'}>Gmail:</span>
             <a
               href="mailto:minhhieu.832k@gmail.com"
