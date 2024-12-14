@@ -2,7 +2,6 @@ import { VscGitPullRequestCreate } from "react-icons/vsc";
 import { CiShop } from "react-icons/ci";
 import { FiFacebook } from "react-icons/fi";
 import { SiZalo } from "react-icons/si";
-import { IoMailOpenOutline } from "react-icons/io5";
 
 export const AppConfig = {
   name: "Minh Hieu Trinh",
@@ -21,10 +20,6 @@ export const AppConfig = {
     price: "From $100"
   }],
   socialLinks: [{
-    name: 'Gmail: Minhhieu.832k',
-    url: 'https://mail.google.com/mail/?view=cm&fs=1&to=minhhieu.832k@gmail.com&su=Chủ%20đề%20Email&body=Nội%20dung%20của%20email',
-    icon: IoMailOpenOutline
-  }, {
     name: 'Zalo',
     url: 'https://www.zalo.me/0387654443',
     icon: SiZalo
