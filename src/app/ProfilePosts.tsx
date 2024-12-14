@@ -1,24 +1,9 @@
-'use client'; // Thêm dòng này để chỉ định đây là một component phía client
-
-import { useState } from 'react';  // Import useState từ React
-import { getSortedPostsData } from '@/lib/posts';
-import { AppConfig } from '@/config/app.config';
-import { FiLink, FiShare } from 'react-icons/fi';
+import {getSortedPostsData} from '@/lib/posts';
+import {AppConfig} from '@/config/app.config';
+import {FiLink, FiShare} from 'react-icons/fi';
 
 export default function ProfilePosts() {
   const allPosts = getSortedPostsData();
-  const [showLink, setShowLink] = useState(null);  // Để theo dõi bài viết nào cần hiển thị link
-  const fixedLink = "https://hieutm83.github.io/tmh";  // Đường link cố định
-
-  const handleCopyLink = () => {
-    navigator.clipboard.writeText(fixedLink)
-      .then(() => {
-        alert('Link copied to clipboard!');
-      })
-      .catch((err) => {
-        console.error('Failed to copy link: ', err);
-      });
-  };
   return <div className={'flex flex-col divide-y pb-8'}>
     {allPosts.map(post => (
       <div className={'bg-white'}>
