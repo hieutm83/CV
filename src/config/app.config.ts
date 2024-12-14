@@ -23,7 +23,7 @@ export const AppConfig = {
   socialLinks: [{
     name: 'Gmail: Minhhieu.832k',
     url: 'https://mail.google.com/mail/?view=cm&fs=1&to=minhhieu.832k@gmail.com&su=Chủ%20đề%20Email&body=Nội%20dung%20của%20email',
-    icon: IoMailOpenOutline /
+    icon: IoMailOpenOutline
   }, {
     name: 'Zalo',
     url: 'https://www.zalo.me/0387654443',
