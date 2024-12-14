@@ -2,7 +2,7 @@ import {FiCloud, FiCode, FiCpu, FiFacebook, FiGithub} from 'react-icons/fi';
 
 export const AppConfig = {
   name: "Minh Hieu Trinh",
-  username: "hieutm", // should be GitHub username
+  username: "hieutm83", // should be GitHub username
   avatar: 'https://i.imgur.com/BBmK7YC.jpeg',
   verticalAvatar: 'https://i.imgur.com/yCthTcx.jpeg',
   introduction: `5+ years of experience in the e-commerce industry.\n` +
@@ -24,6 +24,10 @@ export const AppConfig = {
     name: 'Facebook',
     url: 'https://www.facebook.com/hiueee/',
     icon: FiFacebook
+  }, {
+    name: 'Zalo',
+    url: 'https://zalo.me/0387654443',
+    icon: 'https://upload.wikimedia.org/wikipedia/commons/0/0f/Zalo_Logo.png'
   }],
   expertises: [{
     name: 'E-commerce platform operations.',
