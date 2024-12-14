@@ -1,6 +1,7 @@
-import {getSortedPostsData} from '@/lib/posts';
-import {AppConfig} from '@/config/app.config';
-import {FiLink, FiShare} from 'react-icons/fi';
+import { useState } from 'react';  // Import useState từ React
+import { getSortedPostsData } from '@/lib/posts';
+import { AppConfig } from '@/config/app.config';
+import { FiLink, FiShare } from 'react-icons/fi';
 
 export default function ProfilePosts() {
   const allPosts = getSortedPostsData();
