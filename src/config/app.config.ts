@@ -21,7 +21,7 @@ export const AppConfig = {
   }],
   socialLinks: [{
     name: 'Zalo',
-    url: 'https://https://zalo.me/0387654443',
+    url: 'https://www.zalo.me/0387654443',
     icon: SiZalo
   }, {
     name: 'Facebook',
