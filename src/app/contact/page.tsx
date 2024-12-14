@@ -79,6 +79,15 @@ export default function ContactPage() {
               </a>
             ))}
           </div>
+          {/* Thêm phần Gmail */}
+          <div className={'mt-4 flex flex-row items-center gap-2'}>
+            <span className={'text-neutral-500'}>Gmail:</span>
+            <a
+              href="mailto:minhhieu.832k@gmail.com"
+              className={'text-primary hover:text-primary-dark transition-colors'}
+            >
+              minhhieu.832k@gmail.com
+          </a>
         </div>
 
         <div className={'flex flex-col'}>
