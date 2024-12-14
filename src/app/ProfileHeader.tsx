@@ -17,10 +17,10 @@ export default function ProfileHeader() {
           <OpenMenuButton/>
           <div className={'md:px-4'}>
             <div className={'font-semibold'}>
-              Anh Nhan Nguyen
+              Minh Hieu Trinh
             </div>
             <div className={'text-[12px]'}>
-              3 Posts, 25K Views
+              Contact: minhhieu.832k@gmail.com
             </div>
           </div>
         </div>
