@@ -41,8 +41,8 @@ export default function ProfileProjects() {
                 alt="TikTok Shop"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-4 py-2">
-                TikTok Shop
+              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-5 py-3">
+                TIKTOK SHOP
               </h2>
             </div>
             <div className="space-y-6">
@@ -77,8 +77,8 @@ export default function ProfileProjects() {
                 alt="Shopee"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-4 py-2">
-                Shopee
+              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-5 py-3">
+                SHOPEE
               </h2>
             </div>
             <div className="space-y-6">
@@ -113,8 +113,8 @@ export default function ProfileProjects() {
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-4 py-2">
-                Lazada
+              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-5 py-3">
+                LAZADA
               </h2>
             </div>
             <div className="space-y-6"> {/* Tăng khoảng cách giữa các mục */}
