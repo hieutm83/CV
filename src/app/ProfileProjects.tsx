@@ -2,15 +2,15 @@
 
 function ProjectItem({ name, url, imageUrl }: { name: string; url: string; imageUrl: string }) {
   return (
-    <div className="bg-white border border-neutral-200 p-4 rounded-lg">
+    <div className="p-4 border border-neutral-300 rounded-lg">
       <a
         href={url}
-        className="flex items-center font-bold text-[15px] hover:text-primary"
+        className="flex items-center text-[15px] hover:text-primary"
         target="_blank"
         rel="noopener noreferrer"
       >
         <img src={imageUrl} alt={name} className="w-6 h-6 mr-2 rounded-full" />
-        {name}
+        <span>{name}</span>
       </a>
     </div>
   );
@@ -18,16 +18,16 @@ function ProjectItem({ name, url, imageUrl }: { name: string; url: string; image
 
 export default function ProfileProjects() {
   return (
-    <div className="space-y-8">
+    <div className="bg-white p-4 space-y-8">
       {/* TikTok Shop */}
-      <div className="bg-gray-100 p-4 rounded-lg">
+      <div className="p-4 border border-neutral-300 rounded-xl">
         <div className="flex items-center mb-4">
           <img
             src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
             alt="TikTok Shop"
             className="w-12 h-12 mr-3"
           />
-          <h2 className="font-bold text-xl">TikTok Shop</h2>
+          <h2 className="text-xl">TikTok Shop</h2>
         </div>
         <div className="space-y-4">
           <ProjectItem
@@ -44,14 +44,14 @@ export default function ProfileProjects() {
       </div>
 
       {/* Shopee */}
-      <div className="bg-gray-100 p-4 rounded-lg">
+      <div className="p-4 border border-neutral-300 rounded-xl">
         <div className="flex items-center mb-4">
           <img
             src="https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUpMRGc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--39d48a02f976805620ddc50092a330d97a314636/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJc0FXa0NMQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--15c3f2f3e11927673ae52b71712c1f66a7a1b7bd/shopee-logo.png"
             alt="Shopee"
             className="w-12 h-12 mr-3"
           />
-          <h2 className="font-bold text-xl">Shopee</h2>
+          <h2 className="text-xl">Shopee</h2>
         </div>
         <div className="space-y-4">
           <ProjectItem
