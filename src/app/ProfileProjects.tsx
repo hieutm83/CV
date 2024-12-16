@@ -13,11 +13,11 @@ function ProjectItem({
 }) {
   return (
     <div
-      className={`p-4 border-2 rounded-full shadow-lg transform transition-transform duration-200 hover:scale-105 ${borderColor} bg-[#00aff0]`}
+      className={`p-4 border-2 rounded-lg shadow-lg transform transition-transform duration-200 hover:scale-105 ${borderColor} bg-white`}
     >
       <a
         href={url}
-        className="flex items-center text-white text-[14px] hover:text-white"
+        className="flex items-center text-[15px] hover:text-primary"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -30,18 +30,18 @@ function ProjectItem({
 
 export default function ProfileProjects() {
   return (
-    <div className="bg-white p-4 space-y-16">
-      <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
+    <div className="bg-white p-4 space-y-8">
+      <div className="space-y-8">
         {/* Cột 1: TikTok Shop */}
-        <div className="w-full md:w-1/2 transform transition-transform duration-300 hover:scale-105">
-          <div className="p-4 border-2 border-[#00aff0] rounded-full bg-white">
+        <div className="w-full transform transition-transform duration-300 hover:scale-105">
+          <div className="p-4 border-2 border-[#00aff0] rounded-full bg-[#00aff0]">
             <div className="flex items-center mb-4">
               <img
                 src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
                 alt="TikTok Shop"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0]">TikTok Shop</h2>
+              <h2 className="text-xl text-white font-semibold">TikTok Shop</h2>
             </div>
             <div className="space-y-4">
               <ProjectItem
@@ -67,16 +67,16 @@ export default function ProfileProjects() {
         </div>
 
         {/* Cột 2: Shopee và Lazada */}
-        <div className="w-full md:w-1/2 space-y-8">
+        <div className="space-y-8">
           {/* Shopee */}
-          <div className="transform transition-transform duration-300 hover:scale-105 p-4 border-2 border-[#00aff0] rounded-full bg-white">
+          <div className="transform transition-transform duration-300 hover:scale-105 p-4 border-2 border-[#00aff0] rounded-full bg-[#00aff0]">
             <div className="flex items-center mb-4">
               <img
                 src="https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUpMRGc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--39d48a02f976805620ddc50092a330d97a314636/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJc0FXa0NMQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--15c3f2f3e11927673ae52b71712c1f66a7a1b7bd/shopee-logo.png"
                 alt="Shopee"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0]">Shopee</h2>
+              <h2 className="text-xl text-white font-semibold">Shopee</h2>
             </div>
             <div className="space-y-4">
               <ProjectItem
@@ -101,14 +101,14 @@ export default function ProfileProjects() {
           </div>
 
           {/* Lazada */}
-          <div className="transform transition-transform duration-300 hover:scale-105 p-4 border-2 border-[#00aff0] rounded-full bg-white">
+          <div className="transform transition-transform duration-300 hover:scale-105 p-4 border-2 border-[#00aff0] rounded-full bg-[#00aff0]">
             <div className="flex items-center mb-4">
               <img
                 src="https://classic.vn/wp-content/uploads/2022/04/logo-lazada.png"
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0]">Lazada</h2>
+              <h2 className="text-xl text-white font-semibold">Lazada</h2>
             </div>
             <div className="space-y-4">
               <ProjectItem
