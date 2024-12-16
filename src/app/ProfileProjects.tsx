@@ -33,15 +33,15 @@ export default function ProfileProjects() {
     <div className="bg-white p-4 space-y-16">
       <div className="flex flex-col space-y-16">
         {/* TikTok Shop */}
-        <div className="w-full transform transition-transform duration-300 hover:scale-105">
-          <div className="p-4 border-2 border-[#00aff0] rounded-full bg-white">
+        <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8">
+          <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
                 src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
                 alt="TikTok Shop"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-white border-2 border-[#00aff0] rounded-full px-4 py-2">
+              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-4 py-2">
                 TikTok Shop
               </h2>
             </div>
@@ -77,7 +77,7 @@ export default function ProfileProjects() {
                 alt="Shopee"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-white border-2 border-[#00aff0] rounded-full px-4 py-2">
+              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-4 py-2">
                 Shopee
               </h2>
             </div>
@@ -109,11 +109,11 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Lazada_logo.png"
+                src="https://bizweb.dktcdn.net/100/032/885/themes/955383/assets/lazada.png?1731156124159"
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-white border-2 border-[#00aff0] rounded-full px-4 py-2">
+              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-4 py-2">
                 Lazada
               </h2>
             </div>
