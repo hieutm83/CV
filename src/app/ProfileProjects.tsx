@@ -33,7 +33,7 @@ export default function ProfileProjects() {
     <div className="bg-white p-4 space-y-16">
       <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0">
         {/* Cột 1: TikTok Shop */}
-        <div className="w-full md:w-1/2">
+        <div className="w-full md:w-1/2 transform transition-transform duration-300 hover:scale-105">
           <div className="p-4 border-2 border-gray-300 rounded-xl bg-gray-200">
             <div className="flex items-center mb-4">
               <img
@@ -69,7 +69,7 @@ export default function ProfileProjects() {
         {/* Cột 2: Shopee và Lazada */}
         <div className="w-full md:w-1/2 space-y-8">
           {/* Shopee */}
-          <div className="p-4 border-2 border-orange-500 rounded-xl bg-orange-100">
+          <div className="transform transition-transform duration-300 hover:scale-105 p-4 border-2 border-orange-500 rounded-xl bg-orange-100">
             <div className="flex items-center mb-4">
               <img
                 src="https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUpMRGc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--39d48a02f976805620ddc50092a330d97a314636/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJc0FXa0NMQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--15c3f2f3e11927673ae52b71712c1f66a7a1b7bd/shopee-logo.png"
@@ -101,7 +101,7 @@ export default function ProfileProjects() {
           </div>
 
           {/* Lazada */}
-          <div className="p-4 border-2 border-blue-500 rounded-xl bg-blue-100">
+          <div className="transform transition-transform duration-300 hover:scale-105 p-4 border-2 border-blue-500 rounded-xl bg-blue-100">
             <div className="flex items-center mb-4">
               <img
                 src="https://classic.vn/wp-content/uploads/2022/04/logo-lazada.png"
