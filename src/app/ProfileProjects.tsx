@@ -10,7 +10,7 @@ function ProjectItem({
   imageUrl: string;
 }) {
   return (
-    <div className="p-4 shadow-lg transform transition-transform duration-200 hover:scale-105 bg-[#00aff0]">
+    <div className="p-4 shadow-lg transform transition-transform duration-200 hover:scale-105 bg-[#00aff0] rounded-lg">
       <a
         href={url}
         className="flex items-center text-white text-[14px] hover:text-white"
@@ -30,14 +30,16 @@ export default function ProfileProjects() {
       <div className="flex flex-col space-y-16"> {/* Đảm bảo luôn trong 1 cột */}
         {/* TikTok Shop */}
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8"> {/* Tăng khoảng cách giữa các nội dung */}
-          <div className="p-4 bg-white">
+          <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
                 src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
                 alt="TikTok Shop"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0]">TikTok Shop</h2>
+              <h2 className="text-xl font-bold text-white border-2 border-[#00aff0] rounded-full px-4 py-2">
+                TikTok Shop
+              </h2>
             </div>
             <div className="space-y-8"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
@@ -61,14 +63,16 @@ export default function ProfileProjects() {
 
         {/* Shopee */}
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8"> {/* Tăng khoảng cách giữa các nội dung */}
-          <div className="p-4 bg-white">
+          <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
                 src="https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUpMRGc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--39d48a02f976805620ddc50092a330d97a314636/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJc0FXa0NMQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--15c3f2f3e11927673ae52b71712c1f66a7a1b7bd/shopee-logo.png"
                 alt="Shopee"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0]">Shopee</h2>
+              <h2 className="text-xl font-bold text-white border-2 border-[#00aff0] rounded-full px-4 py-2">
+                Shopee
+              </h2>
             </div>
             <div className="space-y-8"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
@@ -92,14 +96,16 @@ export default function ProfileProjects() {
 
         {/* Lazada */}
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8"> {/* Tăng khoảng cách giữa các nội dung */}
-          <div className="p-4 bg-white">
+          <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
                 src="https://classic.vn/wp-content/uploads/2022/04/logo-lazada.png"
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0]">Lazada</h2>
+              <h2 className="text-xl font-bold text-white border-2 border-[#00aff0] rounded-full px-4 py-2">
+                Lazada
+              </h2>
             </div>
             <div className="space-y-8"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
