@@ -4,13 +4,17 @@ function ProjectItem({
   name,
   url,
   imageUrl,
+  borderColor,
 }: {
   name: string;
   url: string;
   imageUrl: string;
+  borderColor: string;
 }) {
   return (
-    <div className="p-4 shadow-lg transform transition-transform duration-200 hover:scale-105 bg-[#00aff0] rounded-lg">
+    <div
+      className={`p-4 border-2 rounded-full shadow-lg transform transition-transform duration-200 hover:scale-105 ${borderColor} bg-[#00aff0]`}
+    >
       <a
         href={url}
         className="flex items-center text-white text-[14px] hover:text-white"
@@ -27,10 +31,10 @@ function ProjectItem({
 export default function ProfileProjects() {
   return (
     <div className="bg-white p-4 space-y-16">
-      <div className="flex flex-col space-y-16"> {/* Đảm bảo luôn trong 1 cột */}
+      <div className="flex flex-col space-y-16">
         {/* TikTok Shop */}
-        <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8"> {/* Tăng khoảng cách giữa các nội dung */}
-          <div className="p-4 bg-white rounded-lg">
+        <div className="w-full transform transition-transform duration-300 hover:scale-105">
+          <div className="p-4 border-2 border-[#00aff0] rounded-full bg-white">
             <div className="flex items-center mb-4">
               <img
                 src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
@@ -41,28 +45,31 @@ export default function ProfileProjects() {
                 TikTok Shop
               </h2>
             </div>
-            <div className="space-y-8"> {/* Tăng khoảng cách giữa các mục */}
+            <div className="space-y-8">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.tiktok.com/@ldchanoi"
                 imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9973881cfae458c32e5bb2f35a381741.jpeg?lk3s=a5d48078&nonce=97328&refresh_token=a949dfaac730d318103341800013e1e3&x-expires=1734490800&x-signature=hGZdFbWDusUyOMT%2B6QF83s7yp9U%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
               <ProjectItem
                 name="Camera Gia Đình"
                 url="https://www.tiktok.com/@camera.giadinh"
                 imageUrl="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f1d81a6964884377c92697e475f4402f~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=3604&refresh_token=0e565e481c66a32e25ce72269a255e8e&x-expires=1734490800&x-signature=yEJeLiLrbSLgc4aFStQ02ee5lfM%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
               <ProjectItem
                 name="KHOCONGNGHE.86"
                 url="https://www.tiktok.com/@khocongnghe86"
                 imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/bd4160940411c1904a636023f5cbedff.jpeg?lk3s=a5d48078&nonce=99124&refresh_token=f6c62c4bdbafa8749858781d4b85ca21&x-expires=1734490800&x-signature=QNifYN8BJAIiS7eTFsLyb%2F34JT0%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
             </div>
           </div>
         </div>
 
         {/* Shopee */}
-        <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8"> {/* Tăng khoảng cách giữa các nội dung */}
+        <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
@@ -74,21 +81,24 @@ export default function ProfileProjects() {
                 Shopee
               </h2>
             </div>
-            <div className="space-y-8"> {/* Tăng khoảng cách giữa các mục */}
+            <div className="space-y-8">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://shopee.vn/lapdatcamerahanoi_ldc"
                 imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9973881cfae458c32e5bb2f35a381741.jpeg?lk3s=a5d48078&nonce=97328&refresh_token=a949dfaac730d318103341800013e1e3&x-expires=1734490800&x-signature=hGZdFbWDusUyOMT%2B6QF83s7yp9U%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
               <ProjectItem
                 name="Camera Gia Đình"
                 url="https://shopee.vn/camera86giadinh"
                 imageUrl="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f1d81a6964884377c92697e475f4402f~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=3604&refresh_token=0e565e481c66a32e25ce72269a255e8e&x-expires=1734490800&x-signature=yEJeLiLrbSLgc4aFStQ02ee5lfM%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
               <ProjectItem
                 name="KHOCONGNGHE.86"
                 url="https://shopee.vn/khocongnghe86"
                 imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/bd4160940411c1904a636023f5cbedff.jpeg?lk3s=a5d48078&nonce=99124&refresh_token=f6c62c4bdbafa8749858781d4b85ca21&x-expires=1734490800&x-signature=QNifYN8BJAIiS7eTFsLyb%2F34JT0%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
             </div>
           </div>
@@ -99,7 +109,7 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
-                src="https://classic.vn/wp-content/uploads/2022/04/logo-lazada.png"
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Lazada_logo.png"
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
@@ -110,13 +120,21 @@ export default function ProfileProjects() {
             <div className="space-y-8"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
-                url="https://www.lazada.vn/shop/lap-dat-camera-ha-noi"
+                url="https://www.lazada.vn/lapdatcamerahanoi_ldc"
                 imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9973881cfae458c32e5bb2f35a381741.jpeg?lk3s=a5d48078&nonce=97328&refresh_token=a949dfaac730d318103341800013e1e3&x-expires=1734490800&x-signature=hGZdFbWDusUyOMT%2B6QF83s7yp9U%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
               <ProjectItem
                 name="Camera Gia Đình"
-                url="https://www.lazada.vn/shop/x710lojf/?spm=a2o4n.pdp_revamp.seller.1.15fa37e2IUK9Pd&itemId=2569842199&channelSource=pdp"
+                url="https://www.lazada.vn/camera86giadinh"
                 imageUrl="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f1d81a6964884377c92697e475f4402f~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=3604&refresh_token=0e565e481c66a32e25ce72269a255e8e&x-expires=1734490800&x-signature=yEJeLiLrbSLgc4aFStQ02ee5lfM%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
+              />
+              <ProjectItem
+                name="KHOCONGNGHE.86"
+                url="https://www.lazada.vn/khocongnghe86"
+                imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/bd4160940411c1904a636023f5cbedff.jpeg?lk3s=a5d48078&nonce=99124&refresh_token=f6c62c4bdbafa8749858781d4b85ca21&x-expires=1734490800&x-signature=QNifYN8BJAIiS7eTFsLyb%2F34JT0%3D&shp=a5d48078&shcp=81f88b70"
+                borderColor="border-[#00aff0]"
               />
             </div>
           </div>
