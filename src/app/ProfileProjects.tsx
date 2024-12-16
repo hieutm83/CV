@@ -1,45 +1,70 @@
 'use client';
 
-import { useState } from 'react';
-import { AppConfig } from '@/config/app.config';
-
 function ProjectItem({ name, url, imageUrl }: { name: string; url: string; imageUrl: string }) {
   return (
-    <div className={'bg-white border-neutral-200 p-4'}>
-      <div className={'flex flex-row justify-between'}>
-        <a href={url} className={'font-bold text-[15px] hover:text-primary'} target="_blank" rel="noopener noreferrer">
-          <img src={imageUrl} alt={name} className="w-6 h-6 mr-2 inline-block" />
-          {name}
-        </a>
-      </div>
+    <div className="bg-white border border-neutral-200 p-4 rounded-lg">
+      <a
+        href={url}
+        className="flex items-center font-bold text-[15px] hover:text-primary"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <img src={imageUrl} alt={name} className="w-6 h-6 mr-2 rounded-full" />
+        {name}
+      </a>
     </div>
   );
 }
 
 export default function ProfileProjects() {
   return (
-    <div>
-      <div className={'flex flex-col divide-y'}>
-        <ProjectItem
-          name="Shopee Store 1"
-          url="https://vn.shp.ee/QuHkKCi"
-          imageUrl="https://tiemquatiko.com/wp-content/uploads/2022/08/shopee-circle-logo-design-shopping-bag-13.png"
-        />
-        <ProjectItem
-          name="Shopee Store 2"
-          url="https://vn.shp.ee/Dw1afxu"
-          imageUrl="https://tiemquatiko.com/wp-content/uploads/2022/08/shopee-circle-logo-design-shopping-bag-13.png"
-        />
-        <ProjectItem
-          name="Tiktok Shop 1"
-          url="https://vt.tiktok.com/ZMrvqXUNo/?page=TikTokShop"
-          imageUrl="https://freepnglogo.com/images/all_img/1714299307tiktok-shop-icon-png.png"
-        />
-        <ProjectItem
-          name="Tiktok Shop 2"
-          url="https://vt.tiktok.com/ZMrvqmmtY/?page=TikTokShop"
-          imageUrl="https://freepnglogo.com/images/all_img/1714299307tiktok-shop-icon-png.png"
-        />
+    <div className="space-y-8">
+      {/* TikTok Shop */}
+      <div className="bg-gray-100 p-4 rounded-lg">
+        <div className="flex items-center mb-4">
+          <img
+            src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
+            alt="TikTok Shop"
+            className="w-12 h-12 mr-3"
+          />
+          <h2 className="font-bold text-xl">TikTok Shop</h2>
+        </div>
+        <div className="space-y-4">
+          <ProjectItem
+            name="Lắp Đặt Camera Hà Nội"
+            url="https://www.tiktok.com/@ldchanoi"
+            imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9973881cfae458c32e5bb2f35a381741.jpeg?lk3s=a5d48078&nonce=97328&refresh_token=a949dfaac730d318103341800013e1e3&x-expires=1734490800&x-signature=hGZdFbWDusUyOMT%2B6QF83s7yp9U%3D&shp=a5d48078&shcp=81f88b70"
+          />
+          <ProjectItem
+            name="Camera Gia Đình"
+            url="https://www.tiktok.com/@camera.giadinh"
+            imageUrl="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f1d81a6964884377c92697e475f4402f~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=3604&refresh_token=0e565e481c66a32e25ce72269a255e8e&x-expires=1734490800&x-signature=yEJeLiLrbSLgc4aFStQ02ee5lfM%3D&shp=a5d48078&shcp=81f88b70"
+          />
+        </div>
+      </div>
+
+      {/* Shopee */}
+      <div className="bg-gray-100 p-4 rounded-lg">
+        <div className="flex items-center mb-4">
+          <img
+            src="https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUpMRGc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--39d48a02f976805620ddc50092a330d97a314636/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJc0FXa0NMQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--15c3f2f3e11927673ae52b71712c1f66a7a1b7bd/shopee-logo.png"
+            alt="Shopee"
+            className="w-12 h-12 mr-3"
+          />
+          <h2 className="font-bold text-xl">Shopee</h2>
+        </div>
+        <div className="space-y-4">
+          <ProjectItem
+            name="Lắp Đặt Camera Hà Nội"
+            url="https://shopee.vn/lapdatcamerahanoi_ldc"
+            imageUrl="https://p16-sign-sg.tiktokcdn.com/aweme/1080x1080/tos-alisg-avt-0068/9973881cfae458c32e5bb2f35a381741.jpeg?lk3s=a5d48078&nonce=97328&refresh_token=a949dfaac730d318103341800013e1e3&x-expires=1734490800&x-signature=hGZdFbWDusUyOMT%2B6QF83s7yp9U%3D&shp=a5d48078&shcp=81f88b70"
+          />
+          <ProjectItem
+            name="Camera Gia Đình"
+            url="https://shopee.vn/camera86giadinh"
+            imageUrl="https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/f1d81a6964884377c92697e475f4402f~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=3604&refresh_token=0e565e481c66a32e25ce72269a255e8e&x-expires=1734490800&x-signature=yEJeLiLrbSLgc4aFStQ02ee5lfM%3D&shp=a5d48078&shcp=81f88b70"
+          />
+        </div>
       </div>
     </div>
   );
