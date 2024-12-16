@@ -41,7 +41,7 @@ export default function ProfileProjects() {
                 alt="TikTok Shop"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-5 py-3">
+              <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
                 TIKTOK SHOP
               </h2>
             </div>
@@ -77,7 +77,7 @@ export default function ProfileProjects() {
                 alt="Shopee"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-5 py-3">
+              <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
                 SHOPEE
               </h2>
             </div>
@@ -113,7 +113,7 @@ export default function ProfileProjects() {
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-xl font-bold text-[#00aff0] rounded-full px-5 py-3">
+              <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
                 LAZADA
               </h2>
             </div>
