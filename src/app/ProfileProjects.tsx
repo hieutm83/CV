@@ -15,7 +15,7 @@ function ProjectItem({
   return (
     <a 
       href={url} 
-      className="flex items-center justify-between p-2 border-2 rounded-full border-[#00aff0] bg-white text-[#00aff0] text-[14px] w-32 hover:w-48 transition-all duration-200" // Thay đổi chiều rộng tại đây
+      className="flex items-center justify-between p-2 border-2 rounded-full border-[#00aff0] bg-white text-[#00aff0] text-[14px] w-1/2 hover:w-full hover:bg-[#00aff0] hover:text-white transition-all duration-200" // Thay đổi chiều rộng tại đây
       target="_blank"
       rel="noopener noreferrer"
     >
