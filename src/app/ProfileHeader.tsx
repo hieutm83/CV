@@ -7,7 +7,7 @@ export default function ProfileHeader() {
     <div
       className={'h-[200px] bg-cover bg-center'}
       style={{
-        backgroundImage: `url(https://images.pexels.com/photos/1287075/pexels-photo-1287075.jpeg?cs=srgb&dl=pexels-eberhardgross-1287075.jpg&fm=jpg)`,
+        backgroundImage: `url(https://scontent.fhan5-10.fna.fbcdn.net/v/t39.30808-6/400364211_723175456510276_7066175574184611203_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=bd9a62&_nc_eui2=AeH7aua3VRTSFx0G5vGo_aM1c7eVLHz554pzt5UsfPnnijpqXS_8Slet4JTItxnzjZO-Xkw1rOOn1tratkMy2tzv&_nc_ohc=5AkUaQ8l9rEQ7kNvgFRMAjc&_nc_zt=23&_nc_ht=scontent.fhan5-10.fna&_nc_gid=ANdQwA7VXEeo3oBXBZ2c9tw&oh=00_AYA66_4tlYLlDzCvBf3XhnVVx9VLGqeWKqlGj9gweQ8N5Q&oe=6766FF38)`,
       }}
     >
 
