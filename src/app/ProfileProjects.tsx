@@ -40,11 +40,11 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <PiTiktokLogo className="w-12 h-12 mr-3 text-[#00aff0]" />
-              <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
+              <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 TIKTOK SHOP
               </h2>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-4">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.tiktok.com/@ldchanoi"
@@ -72,11 +72,11 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
                <TbBrandShopee className="w-12 h-12 mr-3 text-[#00aff0]" />
-              <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
+              <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 SHOPEE
               </h2>
             </div>
-            <div className="space-y-6">
+            <div className="space-y-4">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://shopee.vn/lapdatcamerahanoi_ldc"
@@ -104,15 +104,15 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
-                src="https://erp-image.sgliteasset.com/_next/image?url=https%3A%2F%2Fcdn1.sgliteasset.com%2FNEXTGENONLINESTORE%2Fimages%2Ftexteditor%2FreKKgUnxT9GeWF5PVUDq_5sLFf90MCn7tn6GF1_1655547598.png&w=3840&q=75"
+                src="https://i.pinimg.com/736x/a9/83/c6/a983c6de96bdcb65cd69ea1d4ed1ed8b.jpg"
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
-              <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
+              <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 LAZADA
               </h2>
             </div>
-            <div className="space-y-6"> {/* Tăng khoảng cách giữa các mục */}
+            <div className="space-y-4"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.lazada.vn/shop/lap-dat-camera-ha-noi/?spm=a2o4n.pdp_revamp.seller.1.49932882T5pm13&itemId=2787171787&channelSource=pdp"
