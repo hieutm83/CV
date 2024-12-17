@@ -44,7 +44,7 @@ export default function ProfileProjects() {
                 TIKTOK SHOP
               </h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-2">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.tiktok.com/@ldchanoi"
@@ -76,7 +76,7 @@ export default function ProfileProjects() {
                 SHOPEE
               </h2>
             </div>
-            <div className="space-y-4">
+            <div className="space-y-2">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://shopee.vn/lapdatcamerahanoi_ldc"
@@ -112,7 +112,7 @@ export default function ProfileProjects() {
                 LAZADA
               </h2>
             </div>
-            <div className="space-y-4"> {/* Tăng khoảng cách giữa các mục */}
+            <div className="space-y-2"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.lazada.vn/shop/lap-dat-camera-ha-noi/?spm=a2o4n.pdp_revamp.seller.1.49932882T5pm13&itemId=2787171787&channelSource=pdp"
