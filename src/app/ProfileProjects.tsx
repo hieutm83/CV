@@ -15,7 +15,7 @@ function ProjectItem({
   return (
     <a 
       href={url} 
-      className="flex items-center justify-between p-4 border-2 rounded-full border-[#00aff0] bg-white text-[#00aff0] text-[14px] hover:bg-[#00aff0] hover:text-white transition duration-200"
+      className="flex items-center justify-between p-2 border-2 rounded-full border-[#00aff0] bg-white text-[#00aff0] text-[14px] w-32 hover:w-48 transition-all duration-200" // Thay đổi chiều rộng tại đây
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -33,7 +33,7 @@ export default function ProfileProjects() {
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
-              <PiTiktokLogo className="w-12 h-12 mr-3 text-[#00aff0]" />
+              <PiTiktokLogo className="w-12 h-12 mr-2 text-[#00aff0]" /> {/* Giảm khoảng cách */}
               <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 TIKTOK SHOP
               </h2>
@@ -62,7 +62,7 @@ export default function ProfileProjects() {
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
-              <TbBrandShopee className="w-12 h-12 mr-3 text-[#00aff0]" />
+              <TbBrandShopee className="w-12 h-12 mr-2 text-[#00aff0]" /> {/* Giảm khoảng cách */}
               <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 SHOPEE
               </h2>
@@ -94,7 +94,7 @@ export default function ProfileProjects() {
               <img
                 src="https://i.pinimg.com/736x/a9/83/c6/a983c6de96bdcb65cd69ea1d4ed1ed8b.jpg"
                 alt="Lazada"
-                className="w-12 h-12 mr-3 rounded-full"
+                className="w-12 h-12 mr-2 rounded-full" // Giảm khoảng cách
               />
               <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 LAZADA
