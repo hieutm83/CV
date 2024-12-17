@@ -1,5 +1,8 @@
 'use client';
 
+import { TbBrandShopee } from "react-icons/tb";
+import { PiTiktokLogo } from "react-icons/pi";
+
 function ProjectItem({
   name,
   url,
@@ -36,11 +39,7 @@ export default function ProfileProjects() {
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
-              <img
-                src="https://i0.wp.com/khiyalee.com/wp-content/uploads/2023/12/tiktok-shop-logo-png.png?fit=3245%2C3523&ssl=1?v=1722525099"
-                alt="TikTok Shop"
-                className="w-12 h-12 mr-3"
-              />
+              <PiTiktokLogo className="w-12 h-12 mr-3 text-[#00aff0]" />
               <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
                 TIKTOK SHOP
               </h2>
@@ -72,11 +71,7 @@ export default function ProfileProjects() {
         <div className="w-full transform transition-transform duration-300 hover:scale-105 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
-              <img
-                src="https://itviec.com/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBOUpMRGc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--39d48a02f976805620ddc50092a330d97a314636/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RkhKbGMybDZaVjkwYjE5c2FXMXBkRnNIYVFJc0FXa0NMQUU9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--15c3f2f3e11927673ae52b71712c1f66a7a1b7bd/shopee-logo.png"
-                alt="Shopee"
-                className="w-12 h-12 mr-3"
-              />
+               <TbBrandShopee className="w-12 h-12 mr-3 text-[#00aff0]" />
               <h2 className="text-base font-bold text-[#00aff0] rounded-full px-5 py-3">
                 SHOPEE
               </h2>
@@ -109,7 +104,7 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
-                src="https://bizweb.dktcdn.net/100/032/885/themes/955383/assets/lazada.png?1731156124159"
+                src="https://erp-image.sgliteasset.com/_next/image?url=https%3A%2F%2Fcdn1.sgliteasset.com%2FNEXTGENONLINESTORE%2Fimages%2Ftexteditor%2FreKKgUnxT9GeWF5PVUDq_5sLFf90MCn7tn6GF1_1655547598.png&w=3840&q=75"
                 alt="Lazada"
                 className="w-12 h-12 mr-3"
               />
