@@ -15,7 +15,7 @@ function ProjectItem({
   return (
     <a 
       href={url} 
-      className="flex items-center justify-between p-2 border-2 rounded-full border-[#00aff0] bg-white text-[#00aff0] text-[14px] w-full md:w-1/2 hover:w-full hover:bg-[#00aff0] hover:text-white transition-all duration-200" // Thay đổi chiều rộng tại đây
+      className="flex items-center justify-between p-2 border-2 rounded-full border-[#00aff0] bg-white text-[#00aff0] text-[14px] w-full md:w-1/2 hover:w-full hover:bg-[#00aff0] hover:text-white transition-all duration-200" 
       target="_blank"
       rel="noopener noreferrer"
     >
@@ -28,9 +28,9 @@ function ProjectItem({
 export default function ProfileProjects() {
   return (
     <div className="bg-white p-4 space-y-16">
-      <div className="flex flex-col space-y-16">
+      <div className="flex flex-col space-y-16 items-center md:items-start"> {/* Thay đổi ở đây */}
         {/* TikTok Shop */}
-        <div className="w-full transform transition-transform duration-300 hover:scale-120 space-y-8">
+        <div className="w-full md:w-1/2 transform transition-transform duration-300 hover:scale-120 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <PiTiktokLogo className="w-12 h-12 mr-2 text-[#00aff0]" />
@@ -59,7 +59,7 @@ export default function ProfileProjects() {
         </div>
 
         {/* Shopee */}
-        <div className="w-full transform transition-transform duration-300 hover:scale-120 space-y-8">
+        <div className="w-full md:w-1/2 transform transition-transform duration-300 hover:scale-120 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <TbBrandShopee className="w-12 h-12 mr-2 text-[#00aff0]" />
@@ -88,7 +88,7 @@ export default function ProfileProjects() {
         </div>
 
         {/* Lazada */}
-        <div className="w-full transform transition-transform duration-300 hover:scale-120 space-y-8">
+        <div className="w-full md:w-1/2 transform transition-transform duration-300 hover:scale-120 space-y-8">
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
