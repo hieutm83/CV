@@ -44,7 +44,7 @@ export default function ProfileProjects() {
                 TIKTOK SHOP
               </h2>
             </div>
-            <div className="space-y-2">
+            <div className="space-y-3">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.tiktok.com/@ldchanoi"
@@ -76,7 +76,7 @@ export default function ProfileProjects() {
                 SHOPEE
               </h2>
             </div>
-            <div className="space-y-2">
+            <div className="space-y-3">
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://shopee.vn/lapdatcamerahanoi_ldc"
@@ -104,15 +104,15 @@ export default function ProfileProjects() {
           <div className="p-4 bg-white rounded-lg">
             <div className="flex items-center mb-4">
               <img
-                src="https://i.pinimg.com/736x/a9/83/c6/a983c6de96bdcb65cd69ea1d4ed1ed8b.jpg"
-                alt="Lazada"
-                className="w-12 h-12 mr-3"
+                  src="https://i.pinimg.com/736x/a9/83/c6/a983c6de96bdcb65cd69ea1d4ed1ed8b.jpg"
+                  alt="Lazada"
+                  className="w-12 h-12 mr-3 rounded-full"
               />
               <h2 className="text-sm font-bold text-[#00aff0] rounded-full px-5 py-3">
                 LAZADA
               </h2>
             </div>
-            <div className="space-y-2"> {/* Tăng khoảng cách giữa các mục */}
+            <div className="space-y-3"> {/* Tăng khoảng cách giữa các mục */}
               <ProjectItem
                 name="Lắp Đặt Camera Hà Nội"
                 url="https://www.lazada.vn/shop/lap-dat-camera-ha-noi/?spm=a2o4n.pdp_revamp.seller.1.49932882T5pm13&itemId=2787171787&channelSource=pdp"
