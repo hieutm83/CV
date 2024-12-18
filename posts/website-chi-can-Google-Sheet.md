@@ -32,7 +32,7 @@ images:
 
   * 3. Tiết kiệm thời gian với các thông báo tự động hóa.
 
-![previewImage](https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/415567116_2139461696403222_5685179756296292871_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeE3-9ezYYQ6Fw30WnPrLija-pnUWuflqCD6mdRa5-WoILKiPnbCm2s2OxXs-EFjBM9NFjMsttpU6qW_mVNK09y5&_nc_ohc=xM8qvLtb4usQ7kNvgGVMWT_&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=A-P1YOAAuVcv_JErVoln1nC&oh=00_AYCZXcTVRXSmToQeU969v1rXXyOeDPkPaF3FzlpwSF04iA&oe=6768035B "Result")
+![previewImage](https://i.imgur.com/7Wq18sv.jpeg "Result")
 
 ---
 
@@ -42,7 +42,7 @@ images:
 
   * Việc quản lý thông tin hàng hóa, số lượng tồn kho một cách khoa học và dễ dàng tra cứu là vô cùng cần thiết, ngay cả với kinh doanh nhỏ lẻ.
 
-![previewImage](https://scontent.fhan5-2.fna.fbcdn.net/v/t39.30808-6/417154596_2139461783069880_3970504878749108233_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeGa_Py0lh8mj_dtekGdG4nH5nKcmITpNhbmcpyYhOk2FkatOyaeUUDzsXMnryjfM7iAJRh5zddoLKBf2a7rE7kE&_nc_ohc=r_-LvFFSJYYQ7kNvgH7X1ca&_nc_zt=23&_nc_ht=scontent.fhan5-2.fna&_nc_gid=Ak2J32pa6OWd7apKa6h22Sr&oh=00_AYA9Hbzw0ZzgpmOZRVEkJDtv-I8zB6hi7gTWlSS9Ozuhsg&oe=67681312 "Result")
+![previewImage](https://i.imgur.com/7Wq18sv.jpeg "Result")
 
 ---
 
