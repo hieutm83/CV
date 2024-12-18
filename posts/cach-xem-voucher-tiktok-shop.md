@@ -7,10 +7,10 @@ tags:
   - html
   - javascript
 images:
-  - "https://drive.google.com/uc?export=view&id=1wubIahMNO6Nh3RArHymy5zZvJsGjUXrz"
+  - "https://i.imgur.com/UBOF9rI.jpeg"
 ---
 
-	Nếu bạn từng quản lý voucher trong chiến dịch TikTok Shop, chắc hẳn bạn đã gặp tình trạng giao diện voucher được xếp theo hàng ngang, gây khó khăn trong việc kiểm tra khi số lượng voucher nhiều.
+	Nếu bạn từng quản lý voucher trong chiến dịch TikTok Shop, chắc hẳn bạn đã gặp tình trạng giao diện voucher được xếp theo hàng ngang,  gây khó khăn trong việc kiểm tra khi số lượng voucher nhiều.
 
 	Giao diện mặc định này làm chúng ta phải cuộn ngang rất bất tiện.
 
@@ -29,7 +29,7 @@ images:
 
 
 
-### ***Giải pháp điều chỉnh HTML***
+***Giải pháp điều chỉnh HTML***
 
 	Để hiển thị voucher theo dạng lưới (grid) dễ nhìn hơn, chúng ta có thể sửa đổi đoạn HTML như sau:
 
@@ -42,7 +42,7 @@ images:
 
 
 
-### ***Ý nghĩa của các thay đổi:***
+***Ý nghĩa của các thay đổi:***
 
 	1. **`theme-arco-space-vertical`**: Thay thế `theme-arco-space-horizontal` để chuyển hướng bố trí từ hàng ngang sang hàng dọc.
 
@@ -54,7 +54,7 @@ images:
 
 
 
-### ***Tự động hóa với Bookmarklet***
+***Tự động hóa với Bookmarklet***
 
 	Để tránh thao tác chỉnh sửa HTML thủ công mỗi lần kiểm tra voucher, chúng ta có thể sử dụng một đoạn mã JavaScript nhỏ. Đoạn mã này sẽ tự động cập nhật giao diện voucher khi bạn nhấn vào bookmark đã tạo.
 
@@ -62,7 +62,7 @@ images:
 
 
 
-### ***Đoạn mã bookmarklet:***
+***Đoạn mã bookmarklet:***
 
 ```javascript
 javascript:(function(){
@@ -80,7 +80,7 @@ javascript:(function(){
 ```
 
 
-#### ***Hướng dẫn tạo bookmark:***
+***Hướng dẫn tạo bookmark:***
 
 	1. Mở trình duyệt (Chrome, Firefox, hoặc Edge).
 
@@ -94,7 +94,7 @@ javascript:(function(){
 
 
 
-#### ***Cách sử dụng:***
+***Cách sử dụng:***
 
 	- Mở giao diện TikTok Shop, nơi hiển thị các voucher.
 
@@ -102,7 +102,7 @@ javascript:(function(){
 
 
 
-### ***Kết luận***
+***Kết luận***
 
 	Với giải pháp này, việc kiểm tra các voucher trên TikTok Shop trở nên dễ dàng hơn rất nhiều. Chỉ với một lần thiết lập, bạn có thể sử dụng bookmark bất kỳ lúc nào mà không cần thao tác chỉnh sửa phức tạp. Hy vọng bài viết này hữu ích cho bạn!
 
