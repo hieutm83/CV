@@ -3,13 +3,13 @@ title: "Helping Businesses Shine on E-Commerce Platforms: Shopee, TikTok, Lazada
 summary: 'Running an online store isn’t just about listing products—it’s about making them stand out! With experience supporting businesses on Shopee, TikTok, Lazada, and more, I specialize in SEO optimization, crafting engaging product content, and improving visuals. From enhancing product images to creating compelling videos, I ensure your store attracts attention and converts views into sales.
 
 I also help businesses with live selling, making sure every stream is a chance to engage customers and boost sales. Let’s work together to make your e-commerce store unmissable!'
-date: '2020-10-10'
+date: '2020-09-12'
 tags:
   - EcommerceSuccess
   - OnlineStoreTips
   - SEOforEcommerce
 images:
-  - "https://cloudify.vn/wp-content/uploads/2022/01/thuong-mai-dien-tu.png"
+  - "https://imgcdn.tapchicongthuong.vn/tcct-media/22/12/12/thuong-mai-dien-tu.jpg"
 ---
 
 
