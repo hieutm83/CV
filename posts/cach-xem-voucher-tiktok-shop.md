@@ -1,7 +1,7 @@
 ---
 title: "Tự Động Điều Chỉnh Hiển Thị Voucher Trên TikTok Shop"
 summary: 'Việc kiểm tra các voucher trên TikTok Shop đôi khi gây khó chịu do cách bố trí mặc định. Bài viết này sẽ hướng dẫn cách thay đổi giao diện voucher để dễ kiểm tra hơn thông qua việc tùy chỉnh HTML và tạo bookmark tự động trên trình duyệt.'
-date: '2024-10-12'
+date: '2024-11-18'
 tags:
   - tiktok shop
   - html
@@ -109,6 +109,6 @@ bạn có thể sử dụng bookmark bất kỳ lúc nào mà không cần thao 
 Thanks for reading. Cheers,
 
 
-@monokaijs a.k.a @delimister
+@hieutm83
 
 
