@@ -1,8 +1,6 @@
 ---
 title: "Xây dựng ‘website thương mại điện tử’ chỉ cần Google Sheet - không cần code!"
-summary: 'Hiện nay, việc kinh doanh online vô cùng phổ biến. Đối với các nhãn hàng lớn hay doanh nghiệp 'giàu có' (có tài chính và nguồn vốn), việc đầu tư vào các sàn TMĐT hay website xịn sò cho kinh doanh có lẽ là chuyện không cần bàn cãi. 
-
-Tuy nhiên, đối với cá nhân kinh doanh nhỏ lẻ hay trên social media như Facebook, Instagram, việc kinh doanh không mất phí trên sàn TMĐT có một số hạn chế nhất định, đặc biệt trong việc quản lý dữ liệu tồn kho. Điển hình là các shop second-hand với số lượng mặt hàng ít.'
+summary: "Hiện nay, việc kinh doanh online vô cùng phổ biến. Đối với các nhãn hàng lớn hay doanh nghiệp 'giàu có' (có tài chính và nguồn vốn), việc đầu tư vào các sàn TMĐT hay website xịn sò cho kinh doanh có lẽ là chuyện không cần bàn cãi. Tuy nhiên, đối với cá nhân kinh doanh nhỏ lẻ hay trên social media như Facebook, Instagram, việc kinh doanh không mất phí trên sàn TMĐT có một số hạn chế nhất định, đặc biệt trong việc quản lý dữ liệu tồn kho. Điển hình là các shop second-hand với số lượng mặt hàng ít."
 date: '2024-10-12'
 tags:
   - EcommerceSuccess
