@@ -10,9 +10,7 @@ images:
   - "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/417129087_2139482649734460_5918909140515587364_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeGcBLnKQVZ_UtjFDeEPKr_6DrUkuZXTesEOtSS5ldN6wSv_meZdkpMQcut6UaU8mEaPa5UwkB8fkmbQ1ABFZTpt&_nc_ohc=-HOlF91u2FQQ7kNvgHE49yO&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=ANa2mZ2WXJgdv2ZnIHQaa_i&oh=00_AYAgsj1-VVO9ZLhD1riCmEUKsuN_XFa5x7gFimvI9JGfqA&oe=6768105D"
 ---
 
-
 **Những nhu cầu cơ bản trong kinh doanh nhỏ lẻ:**
-
 
 ***Có website để bán hàng trông chỉn chu, rõ ràng.***
 
@@ -20,8 +18,8 @@ images:
 
   * Miễn phí.
 
-![previewImage](https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/415920573_2139483316401060_3138373891867646149_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFSnjGMrsS5lO1qmD34foNhJ5xwo8kxRkwnnHCjyTFGTHBj8x7_CFBYSXat9_7YMkXRpdL86Gvo9O3Pk8Daknm5&_nc_ohc=-QWY2mhMZzMQ7kNvgEQBEn6&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=AhzugaUb-61regRAVdxY6b_&oh=00_AYDEm8Vrxt6Ii2fGYW6ScJK9NvXhHMbSvhxs_eqrew4xNQ&oe=6767FF5C "Result")
 
+![previewImage](https://scontent.fhan5-9.fna.fbcdn.net/v/t39.30808-6/415920573_2139483316401060_3138373891867646149_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeFSnjGMrsS5lO1qmD34foNhJ5xwo8kxRkwnnHCjyTFGTHBj8x7_CFBYSXat9_7YMkXRpdL86Gvo9O3Pk8Daknm5&_nc_ohc=-QWY2mhMZzMQ7kNvgEQBEn6&_nc_zt=23&_nc_ht=scontent.fhan5-9.fna&_nc_gid=AhzugaUb-61regRAVdxY6b_&oh=00_AYDEm8Vrxt6Ii2fGYW6ScJK9NvXhHMbSvhxs_eqrew4xNQ&oe=6767FF5C "Result")
 
 
 ***Giải pháp với Google Sheet và Store.link***
@@ -31,16 +29,16 @@ images:
 
  * Ưu điểm của giải pháp này:
 
-  * 1. Listing sản phẩm chuyên nghiệp và rõ ràng, quản lý dữ liệu bán hàng khoa học.
+ * 1.Listing sản phẩm chuyên nghiệp và rõ ràng, quản lý dữ liệu bán hàng khoa học.
 
-  * 2. **KHÔNG tốn tiền; KHÔNG cần code.**
+ * 2.**KHÔNG tốn tiền; KHÔNG cần code.**
 
-  * 3. Tiết kiệm thời gian với các thông báo tự động hóa.
+ * 3.Tiết kiệm thời gian với các thông báo tự động hóa.
+
 
 ![previewImage](https://i.imgur.com/MV3EHyp.jpeg "Result")
 
 
-  
 ---
 
 
@@ -51,8 +49,8 @@ images:
 
   * Việc quản lý thông tin hàng hóa, số lượng tồn kho một cách khoa học và dễ dàng tra cứu là vô cùng cần thiết, ngay cả với kinh doanh nhỏ lẻ.
 
-![previewImage](https://i.imgur.com/7Wq18sv.jpeg "Result")
 
+![previewImage](https://i.imgur.com/7Wq18sv.jpeg "Result")
 
 
 ---
@@ -63,11 +61,11 @@ images:
 
   * Qua bài viết này, mình hy vọng mang đến giải pháp hữu ích cho mọi người, đặc biệt là những ai:
 
-   - Đang hoặc có ý định kinh doanh online dưới dạng cá nhân.
+  * Đang hoặc có ý định kinh doanh online dưới dạng cá nhân.
 
-   - Không có nhiều vốn nhưng mong muốn có một website bán hàng chuyên nghiệp, chỉn chu, mang lại trải nghiệm tốt hơn cho khách hàng.
+  * Không có nhiều vốn nhưng mong muốn có một website bán hàng chuyên nghiệp, chỉn chu, mang lại trải nghiệm tốt hơn cho khách hàng.
 
- 
+
 ***Hướng dẫn sử dụng Store.link***
 
 
@@ -81,7 +79,7 @@ images:
   
    * > Nếu bạn có tài chính ($) và biết code, việc xây dựng website bán hàng riêng sẽ giúp bạn có một nền tảng xịn sò hơn và tối ưu được traffic.
   
-Giải pháp Store.link mình chia sẻ ở đây phù hợp cho những ai có nhu cầu kinh doanh nhỏ lẻ. Hãy cân nhắc chọn giải pháp phù hợp với nhu cầu nhé! :smile:
+   * > Giải pháp Store.link mình chia sẻ ở đây phù hợp cho những ai có nhu cầu kinh doanh nhỏ lẻ. Hãy cân nhắc chọn giải pháp phù hợp với nhu cầu nhé! :smile:
   
 Thanks for reading. Cheers,  
   
