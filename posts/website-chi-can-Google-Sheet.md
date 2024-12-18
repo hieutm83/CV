@@ -45,7 +45,7 @@ images:
 ***Ngoài ra, gần đây mình có trải nghiệm đi mua tạp hóa, cô chủ quán không có ở nhà nên con gái cô bán thay. Vì không biết giá, con bé phải gọi điện liên tục để hỏi. Lúc đó, mình nghĩ:***
 
 
-“Nếu có file Excel/Google Sheet thì mọi chuyện đã khác.”
+**“Nếu có file Excel/Google Sheet thì mọi chuyện đã khác.”**
 
   * Việc quản lý thông tin hàng hóa, số lượng tồn kho một cách khoa học và dễ dàng tra cứu là vô cùng cần thiết, ngay cả với kinh doanh nhỏ lẻ.
 
