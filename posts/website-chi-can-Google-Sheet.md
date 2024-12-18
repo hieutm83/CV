@@ -10,7 +10,6 @@ images:
   - "https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-6/417129087_2139482649734460_5918909140515587364_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=aa7b47&_nc_eui2=AeGcBLnKQVZ_UtjFDeEPKr_6DrUkuZXTesEOtSS5ldN6wSv_meZdkpMQcut6UaU8mEaPa5UwkB8fkmbQ1ABFZTpt&_nc_ohc=-HOlF91u2FQQ7kNvgHE49yO&_nc_zt=23&_nc_ht=scontent.fhan5-8.fna&_nc_gid=ANa2mZ2WXJgdv2ZnIHQaa_i&oh=00_AYAgsj1-VVO9ZLhD1riCmEUKsuN_XFa5x7gFimvI9JGfqA&oe=6768105D"
 ---
 
-
 ## **Những nhu cầu cơ bản trong kinh doanh nhỏ lẻ:**<br>
 ### * ***Có website để bán hàng trông chỉn chu, rõ ràng.***<br>
   * Đảm bảo quản lý được số lượng tồn kho, tránh trường hợp khách đặt mà hết hàng. Với kinh doanh nhỏ lẻ, nhiều sản phẩm chỉ có 1-2 cái, nếu xảy ra tình huống trùng đơn, việc xử lý rất mệt mỏi.<br>
